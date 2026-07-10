@@ -1,0 +1,95 @@
+======================================================================
+PYTHON CORE CHEAT SHEET: VARIABLES, DATA TYPES, STRUCTURES & FUNCTIONS
+======================================================================
+
+1. CODE STRUCTURE & BASIC I/O
+----------------------------------------------------------------------
+Python relies on indentation (usually 4 spaces) instead of curly braces
+to define code blocks.
+
+* print(): Outputs data to the screen.
+* input(): Takes user input as a string. You must typecast it if you 
+           need numbers.
+
+Example Code:
+# Input always returns a string
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))  # Typecasted to integer
+
+# Output
+print(f"Hello {name}, next year you will be {age + 1}.")
+
+
+2. VARIABLES, DATA TYPES & OPERATORS
+----------------------------------------------------------------------
+Variables are containers for storing data. Python is dynamically typed,
+so you do not need to declare types explicitly.
+
+Core Data Types:
+* int: Integers (x = 5)
+* float: Floating-point numbers (y = 5.5)
+* str: Text data (text = "Hello")
+* bool: Boolean values (is_valid = True or False)
+
+Operators:
+* Arithmetic: +, -, *, /, // (floor division), % (modulus), ** (exponent)
+* Comparison: ==, !=, >, <, >=, <=
+* Logical: and, or, not
+
+
+3. SEQUENTIAL DATA TYPES (STRINGS, LISTS, TUPLES)
+----------------------------------------------------------------------
+
+STRINGS (str)
+- Immutable sequences of characters.
+* len(str)              -> Returns the length of the string.
+* .upper() / .lower()   -> Converts string to uppercase or lowercase.
+* .strip()              -> Removes leading and trailing whitespace.
+* .split(sep)           -> Splits a string into a list by a delimiter.
+* .replace(old, new)    -> Replaces occurrences of a substring.
+
+LISTS (list)
+- Mutable, ordered collections of items (can hold mixed types).
+* .append(item)         -> Adds an item to the end of the list.
+* .insert(idx, item)    -> Inserts an item at a specific index.
+* .pop(idx)             -> Removes and returns item at index (default: last).
+* .remove(item)         -> Removes the first occurrence of a specific item.
+* .sort()               -> Sorts the list in-place.
+
+TUPLES (tuple)
+- Immutable, ordered collections. Used for data that shouldn't change.
+- syntax: my_tuple = (1, 2, 3, 2)
+* .count(item)          -> Returns the number of times an item appears.
+* .index(item)          -> Returns the first index of the item.
+
+
+4. HASHED COLLECTIONS (SETS & DICTIONARIES)
+----------------------------------------------------------------------
+
+SETS (set)
+- Unordered collections of unique items. Great for deduplication.
+- syntax: my_set = {1, 2, 3}
+* .add(item)            -> Adds an element to the set.
+* .remove(item)         -> Removes an element; raises KeyError if missing.
+* .union(other)         -> Returns a new set with elements from both sets.
+* .intersection(other)  -> Returns elements common to both sets.
+
+DICTIONARIES (dict)
+- Collections of unique Key-Value pairs. Keys must be immutable.
+- syntax: user = {"name": "Alice", "age": 25}
+* .get(key, default)    -> Safely fetches a value. Avoids KeyError.
+* .keys()               -> Returns a view object of all keys.
+* .values()             -> Returns a view object of all values.
+* .items()              -> Returns a view object of key-value tuples.
+* .update({key: val})   -> Updates dictionary with new key-value pairs.
+
+
+5. UNIVERSAL BUILT-IN FUNCTIONS
+----------------------------------------------------------------------
+These global functions work across multiple data types:
+
+* len()                 -> Returns item count (strings, lists, dicts, etc.)
+* type()                -> Returns the data type of an object.
+* range(st, sp, step)   -> Generates a sequence of numbers for loops.
+* sorted(iterable)      -> Returns a NEW sorted list from any iterable.
+======================================================================
