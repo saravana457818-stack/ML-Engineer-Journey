@@ -1,0 +1,19 @@
+Day 3 - Python Collections
+
+Lists
+
+append() extend() insert() remove() pop() clear() index() count() sort()
+sort(reverse=True) reverse() copy()
+
+Tuples
+
+count() index()
+
+Dictionaries
+
+keys() values() items() get() update() pop() clear()
+
+Sets
+
+add() remove() discard() pop() clear() union() intersection()
+difference()

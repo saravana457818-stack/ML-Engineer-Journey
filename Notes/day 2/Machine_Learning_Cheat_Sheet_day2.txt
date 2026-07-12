@@ -1,0 +1,130 @@
+Machine Learning Cheat Sheet
+
+What is Machine Learning?
+
+-   ML is a branch of AI.
+-   It learns from data instead of fixed rules.
+-   Goal: Make predictions or decisions.
+
+Example: Input: House Area -> Output: House Price
+
+------------------------------------------------------------------------
+
+Types of Machine Learning
+
+1. Supervised Learning
+
+-   Uses labeled data (input + output).
+-   Predicts correct answers.
+
+Examples: - House Price Prediction - Spam Detection - Disease Prediction
+
+2. Unsupervised Learning
+
+-   Uses unlabeled data.
+-   Finds hidden patterns or groups.
+
+Examples: - Customer Segmentation - Recommendation Systems - Fraud
+Detection
+
+3. Reinforcement Learning
+
+-   Learns using rewards and penalties.
+-   Trial-and-error learning.
+
+Examples: - Robotics - Self-driving Cars - Game AI
+
+------------------------------------------------------------------------
+
+Why ML?
+
+-   Learns from data
+-   Improves automatically
+-   Handles large data
+-   Makes predictions
+-   Automates tasks
+
+------------------------------------------------------------------------
+
+Real-Life Applications
+
+-   Netflix/YouTube Recommendations
+-   Gmail Spam Filter
+-   Face Recognition
+-   Banking Fraud Detection
+-   Healthcare
+-   Self-driving Cars
+-   Voice Assistants
+
+------------------------------------------------------------------------
+
+AI vs ML vs Deep Learning
+
+AI └── Machine Learning └── Deep Learning
+
+AI: Makes machines intelligent. ML: Learns from data. DL: Uses neural
+networks for complex tasks.
+
+------------------------------------------------------------------------
+
+ML Workflow
+
+Collect Data ↓ Clean Data ↓ EDA ↓ Train/Test Split ↓ Choose Model ↓
+Train ↓ Evaluate ↓ Improve ↓ Deploy
+
+------------------------------------------------------------------------
+
+Important Terms
+
+Features = Input variables Label (Target) = Output to predict Training
+Data = Used to teach model Testing Data = Used to evaluate model
+
+------------------------------------------------------------------------
+
+Algorithms
+
+Linear Regression
+
+-   Predicts numbers.
+-   Example: House Price.
+
+Logistic Regression
+
+-   Predicts categories.
+-   Example: Spam / Not Spam.
+
+Decision Tree
+
+-   Flowchart of Yes/No questions.
+-   Example: Loan Approval.
+
+Random Forest
+
+-   Many Decision Trees vote.
+-   More accurate than one tree.
+
+KNN
+
+-   Predicts using nearest neighbors.
+-   Example: Fruit Classification.
+
+SVM
+
+-   Finds best boundary between classes.
+-   Example: Face Recognition.
+
+------------------------------------------------------------------------
+
+Quick Comparison
+
+Linear Regression -> Numbers Logistic Regression -> Categories Decision
+Tree -> Rule-based decisions Random Forest -> Multiple trees KNN ->
+Nearest neighbors SVM -> Best separating boundary
+
+------------------------------------------------------------------------
+
+Easy Memory Trick
+
+Linear Regression -> 📈 Best-fit line Logistic Regression -> 🚪 Yes/No
+Decision Tree -> 🌳 Questions Random Forest -> 🌲 Many Trees KNN -> 👥
+Neighbors SVM -> ✂️ Best Boundary

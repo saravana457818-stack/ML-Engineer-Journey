@@ -1,0 +1,44 @@
+Day 2 - Loops, Functions & Practice Programs
+
+for Loop
+
+-   Repeats over a sequence. Syntax: for i in range(5): print(i)
+
+range(start, stop, step)
+
+while Loop
+
+-   Runs while a condition is True.
+
+break
+
+-   Exits the nearest loop immediately.
+
+continue
+
+-   Skips the current iteration.
+
+Nested Loops
+
+-   Loop inside another loop.
+
+Functions
+
+def greet(): print(“Hello”)
+
+Parameters
+
+def add(a, b): return a + b
+
+Return
+
+-   print() displays output.
+-   return sends a value back to the caller.
+
+Practice Programs
+
+-   Multiplication Table
+-   Prime Number
+-   Factorial
+-   Fibonacci Series
+-   Number Guessing Game

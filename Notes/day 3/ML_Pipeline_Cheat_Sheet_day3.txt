@@ -1,0 +1,100 @@
+MACHINE LEARNING PIPELINE - CHEAT SHEET
+
+1.  Collect Data 📂
+
+-   Gather raw data from databases, files, APIs, sensors, or users.
+-   Good data = Better model.
+
+Examples: - House prices - Student marks - Customer purchases
+
+------------------------------------------------------------------------
+
+2.  Clean Data 🧹
+
+-   Remove missing values
+-   Remove duplicates
+-   Fix incorrect data
+-   Handle outliers
+-   Convert data into a usable format
+
+Goal: Clean and reliable dataset.
+
+------------------------------------------------------------------------
+
+3.  Explore Data (EDA) 📊 EDA = Exploratory Data Analysis
+
+Purpose: - Understand the dataset - Find patterns - Detect missing
+values and outliers - Visualize relationships
+
+Common tools: - Histograms - Bar charts - Scatter plots - Correlation
+matrix
+
+------------------------------------------------------------------------
+
+4.  Split Train/Test Data ✂️ Typical split:
+
+-   80% Training Data
+-   20% Testing Data
+
+Training Data: Used to teach the model.
+
+Testing Data: Used to check model performance on unseen data.
+
+------------------------------------------------------------------------
+
+5.  Choose a Model 🧠 Select an algorithm based on the problem.
+
+Examples: - Linear Regression - Logistic Regression - Decision Tree -
+Random Forest - KNN - SVM
+
+------------------------------------------------------------------------
+
+6.  Train Model 🏋️
+
+-   Feed training data to the algorithm.
+-   Model learns patterns from data.
+
+Output: A trained ML model.
+
+------------------------------------------------------------------------
+
+7.  Evaluate Model 📈 Test the model using testing data.
+
+Common metrics: - Accuracy - Precision - Recall - F1 Score - Mean
+Squared Error (Regression)
+
+Goal: Measure how well the model predicts.
+
+------------------------------------------------------------------------
+
+8.  Improve Model 🔧 Improve performance by:
+
+-   More data
+-   Better features
+-   Better algorithm
+-   Hyperparameter tuning
+-   Feature engineering
+
+------------------------------------------------------------------------
+
+9.  Deploy Model 🚀 Use the trained model in real-world applications.
+
+Examples: - Mobile apps - Websites - Banking systems - Healthcare -
+Recommendation systems
+
+========================================
+
+IMPORTANT TERMS
+
+Features = Input variables Label/Target = Output to predict Training
+Data = Data used to learn Testing Data = Data used to evaluate
+
+========================================
+
+MEMORY TRICK
+
+Collect ↓ Clean ↓ EDA ↓ Split ↓ Choose Model ↓ Train ↓ Evaluate ↓
+Improve ↓ Deploy
+
+Mnemonic: CCESCTEID (Collect → Clean → Explore → Split → Choose → Train
+→ Evaluate → Improve → Deploy)
