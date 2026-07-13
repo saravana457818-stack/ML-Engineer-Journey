@@ -1,0 +1,41 @@
+Python Day 4 Cheat Sheet
+
+Functions • Tuples • Sets • Dictionaries
+
+FUNCTIONS - def -> Define function - Parameters -> Variables in function
+definition - Arguments -> Values passed during function call - return ->
+Returns value - Local variable -> Exists only inside function - Global
+variable -> Declared outside functions - Default argument -> Used if no
+value is passed
+
+Example: def add(a, b): return a + b
+
+TUPLES - Ordered - Immutable - Allow duplicates - Support indexing and
+slicing - Methods: count(), index()
+
+SETS - Unordered - Mutable - Unique values only - Methods: add()
+remove() discard() union() intersection() difference()
+
+Remove duplicates: numbers = [1,2,2,3] unique = list(set(numbers))
+
+DICTIONARIES - Store key-value pairs - Keys are unique - Access:
+student[“name”] - Update: student[“marks”] = 95 - Add key:
+student[“city”] = “Madurai” - Methods: keys() values() items()
+
+Loop: student = {“name”:“saravana”} for key, value in student.items():
+print(key, “:”, value)
+
+IMPORTANT BUILT-IN FUNCTIONS len(), type(), range(), input(), print(),
+list(), tuple(), set(), dict(), max(), min(), sum(), sorted()
+
+PRACTICE - Prime Number Function - Factorial Function - Count Vowels -
+Reverse String - Largest of Three Numbers - Tuple Operations - Remove
+Duplicates Using Set - Common Elements Between Lists - Student
+Dictionary
+
+INTERVIEW DIFFERENCES
+
+List : Ordered, Mutable, Duplicates Yes, Indexing Yes Tuple : Ordered,
+Immutable, Duplicates Yes, Indexing Yes Set : Unordered, Mutable,
+Duplicates No, Indexing No Dictionary : Ordered, Mutable, Keys Unique,
+Access by Key
